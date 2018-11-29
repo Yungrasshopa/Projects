@@ -48,7 +48,6 @@ void Graphics::Update(float dt)
 	} while (glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS &&
 		glfwWindowShouldClose(window) == 0);
 
-	//std::cout << "Graphics: Update(" << dt << ")" << std::endl;
 }
 
 void Graphics::CreateWindowTest()
